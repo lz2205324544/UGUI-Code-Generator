@@ -1,0 +1,38 @@
+using System;
+using UnityEngine;
+
+namespace %Namespace%
+{
+
+    public interface IPadBinding
+    {
+        public void BindRootNode(GameObject node);
+    }
+    
+    public abstract class PadBindingBase : IPadBinding
+    {
+        private ReferenceController _referenceController;
+        protected GameObject RootNode { private set; get; }
+
+        public void BindRootNode(GameObject node)
+        {
+            RootNode = node;
+            _referenceController = RootNode.GetComponent<ReferenceController>();
+            if (_referenceController == null)
+            {
+                throw new Exception("ReferenceController not found");
+            }
+
+            InitBindings();
+        }
+
+        protected virtual void InitBindings()
+        {
+        }
+
+        protected UnityEngine.Object GetComponent(int index)
+        {
+            return _referenceController.GetComponent(index);
+        }
+    }
+}

@@ -1,0 +1,20 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace %Namespace%
+{
+    /// <summary>
+    /// 此脚本名字不要更改
+    /// </summary>
+    public class ReferenceController : MonoBehaviour
+    {
+        public List<Object> components = new List<Object>();
+
+        public Object GetComponent(int index)
+        {
+            if (components.Count > index)
+                return components[index];
+            return null;
+        }
+    }
+}

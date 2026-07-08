@@ -1,0 +1,2 @@
+            %WidgetFieldName% = new ();
+            %WidgetFieldName%.BindRootNode(%FieldName%);

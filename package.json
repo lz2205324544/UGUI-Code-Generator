@@ -1,0 +1,29 @@
+{
+  "name": "com.lz.ugui-code-generator",
+  "version": "0.0.1",
+  "displayName": "UGUI Code Generator",
+  "description": "This is an UGUI Code Generator package",
+  "unity": "2022.3",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+},
+ "keywords": [
+    "uguicodegenerator",
+    "generator",
+    "UGUICodeGenerator"
+  ],
+  "author": {
+    "name": "lz"
+  },
+  "samples":[
+  {
+	  "displayName":"sample1",
+	  "description":"This is sample1.",
+	  "path":"Samples~/Sample1"
+  }
+  ]
+}

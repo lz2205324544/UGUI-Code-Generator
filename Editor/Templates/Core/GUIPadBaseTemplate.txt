@@ -1,0 +1,38 @@
+using System;
+using UnityEngine;
+
+namespace %Namespace%
+{
+    public abstract class GUIPadBase : PadBindingBase
+    {
+        public virtual void OnAwake()
+        {
+            InitEvent();
+        }
+
+        public virtual void InitEvent()
+        {
+            
+        }
+
+        public virtual void OnShow()
+        {
+            
+        }
+
+        public virtual void OnHide()
+        {
+            
+        }
+
+        public virtual void OnClose()
+        {
+            
+        }
+
+        public virtual void OnDestroy()
+        {
+            
+        }
+    }
+}

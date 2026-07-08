@@ -1,0 +1,1 @@
+            %FieldName% = GetComponent(%FieldIndex%) as %FieldType%;

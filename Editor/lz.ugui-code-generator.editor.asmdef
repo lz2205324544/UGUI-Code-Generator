@@ -1,0 +1,18 @@
+{
+    "name": "lz.ugui-code-generator.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0489b833925492d4db0c3efeed924da1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

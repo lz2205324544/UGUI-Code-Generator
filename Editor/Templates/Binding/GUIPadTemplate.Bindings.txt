@@ -1,0 +1,28 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace %Namespace%
+{
+    public partial class %ClassName% : %PadBaseClassName%
+    {
+        #region private fields
+
+%Fields%
+
+        #endregion
+
+
+        #region widget fields
+
+%WidgetFields%
+
+        #endregion
+        
+        protected override void InitBindings()
+        {
+%FieldsAssignment%
+
+%WidgetAssignment%
+        }
+    }
+}
