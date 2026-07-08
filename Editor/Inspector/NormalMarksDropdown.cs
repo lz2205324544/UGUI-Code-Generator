@@ -17,7 +17,7 @@ namespace UGUICodeGenerator
         public MaskField Create()
         {
             maskField = new MaskField();
-            maskField.label = "Code Generate Mark";
+            maskField.label = "Normal Mark";
             maskField.tooltip = "Code Generate Mark";
             maskField.style.width = 250;
             maskField.choices = UGUICodeGeneratorProjectSettings.instance.GetNormalMarkChoices(Selection.gameObjects);
